@@ -4,14 +4,18 @@ programa
 	funcao inicio()
 	{
 		inteiro duracaoSegundos
+		inteiro tempoHoras = 0
+		inteiro tempoMinutos1 = 0
+		inteiro tempoMinutos2 = 0
+		inteiro tempoSegundos = 0 
 
 		escreva("Qual a duração do evento em segundos? ")
 		leia(duracaoSegundos)
 
-		inteiro tempoHoras = duracaoSegundos / 3600 
-		inteiro tempoMinutos1 = duracaoSegundos - (tempoHoras * 3600)
-		inteiro tempoMinutos2 = tempoMinutos1 / 60
-		inteiro tempoSegundos = tempoMinutos1 - (tempoMinutos2 * 60)
+		 tempoHoras = duracaoSegundos / 3600 
+		 tempoMinutos1 = duracaoSegundos - (tempoHoras * 3600)
+		 tempoMinutos2 = tempoMinutos1 / 60
+		 tempoSegundos = tempoMinutos1 - (tempoMinutos2 * 60)
 		
 		escreva("\n O evento tem: ", tempoHoras, " horas")
 		escreva(", ", tempoMinutos2, " minutos")
@@ -25,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 467; 
+ * @POSICAO-CURSOR = 585; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
