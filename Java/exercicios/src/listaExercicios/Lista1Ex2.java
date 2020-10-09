@@ -22,21 +22,21 @@ public class Lista1Ex2 {
 		System.out.println("\nEscreva o terceiro número: ");
 		numero3 = ler.nextInt();
 		
-		if(numero1 > numero2 && numero1 > numero3 && numero3 < numero2 ) {
+		if(numero1 >= numero2 && numero1 >= numero3 && numero3 <= numero2 ) {
 			
 			System.out.println("A ordem crescente dos números é:" );
-			System.out.println("\n" +numero3+ "\n"  +numero2+ "\n"  +numero1);
+			System.out.println("\n" +numero3+ ","  +numero2+ ","  +numero1);
 		}
 		
-		else if(numero2 > numero1 && numero2 > numero3 && numero1 < numero3 ) {
+		else if(numero2 >= numero1 && numero2 >= numero3 && numero1 <= numero3 ) {
 			
 			System.out.println("A ordem crescente dos números é:" );
-			System.out.println("\n" +numero1+ "\n"  +numero3+ "\n"  +numero2);
+			System.out.print("\n" +numero1+ ","  +numero3+ ","  +numero2);
 		}
 		
-		else {
+		else if(numero3 >= numero1 && numero3 >= numero2 && numero2 <= numero1){
 			
-			System.out.println("\n" +numero2+ "\n"  +numero1+ "\n"  +numero3);
+			System.out.println("\n" +numero2+ ","  +numero1+ ","  +numero3);
 		}
 		
 	}
