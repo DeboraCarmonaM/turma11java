@@ -1,4 +1,4 @@
-package listaExercicios;
+package listaExercicios2;
 
 
 public class Lista2Ex1 {
